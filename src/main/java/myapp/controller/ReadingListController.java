@@ -1,5 +1,7 @@
-package myapp;
+package myapp.controller;
 
+import myapp.repository.ReadingListRepository;
+import myapp.entity.Book;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
